@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D0DCC439C01AFE3979B3C16EE3777A43A19534F6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D0DCC439C01AFE3979B3C16EE3777A43A19534F6" : 0,
+    "7F29E45D4582AAAF89F1FD242F65C46B8C0A3793" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "36F41DAC-A813-442A-831C-97052AAEDCFE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D0DCC439C01AFE3979B3C16EE3777A43A19534F6" : "ZXingObjC\/",
+    "7F29E45D4582AAAF89F1FD242F65C46B8C0A3793" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BarcodeScanner",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "examples\/BarcodeScanner\/BarcodeScanner.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/SpencerC\/FowlerServiceRequest.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7F29E45D4582AAAF89F1FD242F65C46B8C0A3793"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/SpencerC\/ZXingObjC.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D0DCC439C01AFE3979B3C16EE3777A43A19534F6"
+    }
+  ]
+}

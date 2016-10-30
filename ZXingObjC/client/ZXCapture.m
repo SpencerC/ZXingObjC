@@ -15,6 +15,7 @@
  */
 
 #import <ImageIO/ImageIO.h>
+#import <AVFoundation/AVCaptureSession.h>
 #import "ZXBinaryBitmap.h"
 #import "ZXCapture.h"
 #import "ZXCaptureDelegate.h"
@@ -95,7 +96,7 @@
   if (!_layer) {
     layer = [[AVCaptureVideoPreviewLayer alloc] initWithSession:self.session];
     layer.affineTransform = self.transform;
-    layer.delegate = self;
+    //layer.delegate = self;
     layer.videoGravity = AVLayerVideoGravityResizeAspect;
     layer.videoGravity = AVLayerVideoGravityResizeAspectFill;
 
@@ -512,11 +513,7 @@ didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
 
   if (self.input) {
     [self.session addInput:self.input];
-	if ([_session canSetSessionPreset:AVCaptureSessionPreset1920x1080]) {
-		_sessionPreset = AVCaptureSessionPreset1920x1080;
-	} else {
-		_sessionPreset = AVCaptureSessionPreset1280x720;
-	}
+    _sessionPreset = AVCaptureSessionPreset1280x720;
 	self.session.sessionPreset = self.sessionPreset;
   }
 
