@@ -44,6 +44,9 @@ typedef enum {
 
   /** ITF (Interleaved Two of Five) 1D format. */
   kBarcodeFormatITF,
+    
+  /** STF (Standard Two of Five) 1D format. */
+  kBarcodeFormatSTF,
 
   /** MaxiCode 2D barcode format. */
   kBarcodeFormatMaxiCode,

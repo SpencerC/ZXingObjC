@@ -21,6 +21,7 @@
 #import "ZXDecodeHints.h"
 #import "ZXErrors.h"
 #import "ZXITFReader.h"
+#import "ZXSTFReader.h"
 #import "ZXMultiFormatOneDReader.h"
 #import "ZXMultiFormatUPCEANReader.h"
 #import "ZXRSS14Reader.h"
@@ -84,6 +85,7 @@
       [_readers addObject:[[ZXITFReader alloc] init]];
       [_readers addObject:[[ZXRSS14Reader alloc] init]];
       [_readers addObject:[[ZXRSSExpandedReader alloc] init]];
+      [_readers addObject:[[ZXSTFReader alloc] init]];
     }
   }
 

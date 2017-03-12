@@ -1660,6 +1660,8 @@
 		25FE5D4016D0B84C00826CDB /* ZXRSSExpandedStackedInternalTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FE5D3F16D0B84C00826CDB /* ZXRSSExpandedStackedInternalTestCase.m */; };
 		25FE5D4316D0B8B200826CDB /* ZXTestCaseUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FE5D4216D0B8B200826CDB /* ZXTestCaseUtil.m */; };
 		25FE5D4516D1997C00826CDB /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = 25FE5D4416D1997C00826CDB /* Resources */; };
+		394FEF121E752D36007ADA40 /* ZXSTFReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 39CE829F1DD515B9009BF33A /* ZXSTFReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		394FEF131E752D4F007ADA40 /* ZXSTFReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 39CE82A01DD515B9009BF33A /* ZXSTFReader.m */; };
 		39CE82A11DD515B9009BF33A /* ZXSTFReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 39CE829F1DD515B9009BF33A /* ZXSTFReader.h */; };
 		39CE82A21DD515B9009BF33A /* ZXSTFReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 39CE82A01DD515B9009BF33A /* ZXSTFReader.m */; };
 		DB7257521A52420400EFF81B /* ZXAztecDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 25403CEF166A999D00E13304 /* ZXAztecDecoder.m */; };
@@ -4965,6 +4967,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				394FEF121E752D36007ADA40 /* ZXSTFReader.h in Headers */,
 				DB7259E11A52466B00EFF81B /* ZXPDF417ScanningDecoder.h in Headers */,
 				DB7259851A52452500EFF81B /* ZXDataMatrixASCIIEncoder.h in Headers */,
 				DB7259AF1A5245B000EFF81B /* ZXRSSExpandedGeneralAppIdDecoder.h in Headers */,
@@ -6341,6 +6344,7 @@
 			files = (
 				DB7257521A52420400EFF81B /* ZXAztecDecoder.m in Sources */,
 				DB7257531A52420400EFF81B /* ZXAztecWriter.m in Sources */,
+				394FEF131E752D4F007ADA40 /* ZXSTFReader.m in Sources */,
 				DB7257541A52420400EFF81B /* ZXAztecDetector.m in Sources */,
 				DB7257551A52420400EFF81B /* ZXAztecDetectorResult.m in Sources */,
 				DB7257561A52420400EFF81B /* ZXAztecReader.m in Sources */,

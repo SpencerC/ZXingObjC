@@ -37,8 +37,8 @@ const int ZX_STF_DEFAULT_ALLOWED_LENGTHS[] = { 6, 8, 10, 12, 14 };
  * Note: The end pattern is reversed because the row is reversed before
  * searching for the END_PATTERN
  */
-const int ZX_STF_STF_START_PATTERN[] = {ZX_STF_N, ZX_STF_N, ZX_STF_N, ZX_STF_N};
-const int ZX_STF_END_PATTERN_REVERSED[] = {ZX_STF_N, ZX_STF_N, ZX_STF_W};
+const int ZX_STF_STF_START_PATTERN[] = {ZX_STF_W, ZX_STF_N, ZX_STF_W, ZX_STF_N, ZX_STF_N, ZX_STF_N};
+const int ZX_STF_END_PATTERN_REVERSED[] = {ZX_STF_W, ZX_STF_N, ZX_STF_N, ZX_STF_N, ZX_STF_W, ZX_STF_N};
 
 /**
  * Patterns of Wide / Narrow lines to indicate each digit
