@@ -163,11 +163,7 @@ const int ZX_STF_PATTERNS[ZX_STF_PATTERNS_LEN][5] = {
       return NO;
     }
     [resultString appendFormat:@"%C", (unichar)('0' + bestMatch)];
-    bestMatch = [self decodeDigit:counterWhite];
-    if (bestMatch == -1) {
-      return NO;
-    }
-    [resultString appendFormat:@"%C", (unichar)('0' + bestMatch)];
+    
 
     for (int i = 0; i < counterDigitPair.length; i++) {
       payloadStart += counterDigitPair.array[i];
